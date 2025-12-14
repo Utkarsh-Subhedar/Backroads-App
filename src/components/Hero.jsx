@@ -3,7 +3,7 @@ import hero from "../assets/main.jpeg";
 const Hero = () => {
   return (
     <div
-      className="absolute top-0 bg-cover bg-center w-full h-150 *:text-white"
+      className="bg-cover bg-center w-full h-150 *:text-white "
       style={{ backgroundImage: `url(${hero})` }}
     >
       <section className="bg-linear-to-b from-primary-dark-3/70 via-primary-dark-3/60 to-black/60 h-full flex items-center justify-center">
