@@ -1,1 +1,42 @@
 @import "tailwindcss";
+
+:root {
+  --font-primary: "Lato", sans-serif;
+}
+
+.link-hover-effect {
+  @apply text-inherit;
+}
+
+.link-hover-effect:hover {
+  @apply text-[rgb(44,174,186)] transition duration-300 ease-in-out;
+}
+
+@theme {
+  /* dark shades of primary color*/
+  --color-primary-dark-1: hsl(184, 91%, 17%);
+  --color-primary-dark-2: hsl(185, 84%, 25%);
+  --color-primary-dark-3: hsl(185, 81%, 29%);
+  --color-primary-dark-4: hsl(184, 77%, 34%);
+  /* primary/main color */
+  --color-primary-light-1: hsl(185, 62%, 45%);
+  /* lighter shades of primary color */
+  --color-primary-light-2: hsl(185, 57%, 50%);
+  --color-primary-light-3: hsl(184, 65%, 59%);
+  --color-primary-light-4: hsl(184, 80%, 74%);
+  --color-primary-light-5: hsl(185, 94%, 87%);
+  --color-primary-light-6: hsl(186, 100%, 94%);
+  /* darkest grey - used for headings */
+  --color-grey-dark-1: hsl(209, 61%, 16%);
+  --color-grey-dark-2: hsl(211, 39%, 23%);
+  --color-grey-dark-3: hsl(209, 34%, 30%);
+  --color-grey-dark-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --color-grey-light-5: hsl(210, 22%, 49%);
+  --color-grey-light-6: hsl(209, 23%, 60%);
+  --color-grey-light-7: hsl(211, 27%, 70%);
+  --color-grey-light-8: hsl(210, 31%, 80%);
+  --color-grey-light-9: hsl(212, 33%, 89%);
+  --color-grey-light-10: hsl(210, 36%, 96%);
+  --color-white: #fff;
+}
