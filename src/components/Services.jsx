@@ -1,4 +1,5 @@
 import React from "react";
+import { FaSquare } from "react-icons/fa";
 
 const Services = () => {
   return (
@@ -10,39 +11,45 @@ const Services = () => {
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3">
-          <article className="service">
-            <span className="service-icon">
-              <i className="fas fa-wallet fa-fw"></i>
+          <article className="space-y-1">
+            <span className="flex items-center gap-1">
+              <FaSquare className="text-primary-light-1" />
+              <h4 className="uppercase text-sm tracking-widest font-semibold">
+                saving money
+              </h4>
             </span>
-            <div className="service-info">
-              <h4 className="service-title">saving money</h4>
-              <p className="service-text">
+            <div className="max-w-[300px]">
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, officia.
               </p>
             </div>
           </article>
 
-          <article className="service">
-            <span className="service-icon">
-              <i className="fas fa-tree fa-fw"></i>
+          <article className="space-y-1">
+            <span className="flex items-center gap-1">
+              <FaSquare className="text-primary-light-1" />
+              <h4 className="uppercase text-sm tracking-widest font-semibold">
+                endless hiking
+              </h4>
             </span>
-            <div className="service-info">
-              <h4 className="service-title">endless hiking</h4>
-              <p className="service-text">
+            <div className="service-info max-w-[300px]">
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, officia.
               </p>
             </div>
           </article>
 
-          <article className="service">
-            <span className="service-icon">
-              <i className="fas fa-socks fa-fw"></i>
+          <article className="space-y-1">
+            <span className="service-icon flex items-center gap-1">
+              <FaSquare className="text-primary-light-1" />
+              <h4 className="uppercase text-sm tracking-widest font-semibold">
+                amazing comfort
+              </h4>
             </span>
-            <div className="service-info">
-              <h4 className="service-title">amazing comfort</h4>
-              <p className="service-text">
+            <div className="max-w-[300px]">
+              <p className="">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, officia.
               </p>
