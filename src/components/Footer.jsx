@@ -1,10 +1,12 @@
 import React from "react";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { IoLogoGithub } from "react-icons/io5";
 
 const Footer = () => {
   return (
     <div>
-      <footer class="section footer">
-        <ul class="footer-links">
+      <footer class="flex flex-col bg-grey-dark-1 *:text-white">
+        <ul class="flex justify-center">
           <li>
             <a href="#home" class="footer-link">
               home
@@ -26,14 +28,14 @@ const Footer = () => {
             </a>
           </li>
         </ul>
-        <ul class="footer-icons">
+        <ul class="flex justify-center">
           <li>
             <a
               href="https://www.twitter.com"
               target="_blank"
               class="footer-icon"
             >
-              <i class="fab fa-facebook"></i>
+              <FaLinkedin />
             </a>
           </li>
           <li>
@@ -42,7 +44,7 @@ const Footer = () => {
               target="_blank"
               class="footer-icon"
             >
-              <i class="fab fa-twitter"></i>
+              <IoLogoGithub />
             </a>
           </li>
           <li>
@@ -51,11 +53,11 @@ const Footer = () => {
               target="_blank"
               class="footer-icon"
             >
-              <i class="fab fa-squarespace"></i>
+              <FaInstagram />
             </a>
           </li>
         </ul>
-        <p class="copyright">
+        <p class="flex justify-center">
           copyright &copy; Backroads travel tours company
           <span id="date"></span> all rights reserved
         </p>
