@@ -19,7 +19,7 @@ const Services = () => {
               </h4>
             </span>
             <div className="max-w-[300px]">
-              <p className="">
+              <p className="ml-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, officia.
               </p>
@@ -34,7 +34,7 @@ const Services = () => {
               </h4>
             </span>
             <div className="service-info max-w-[300px]">
-              <p className="">
+              <p className="ml-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, officia.
               </p>
@@ -49,7 +49,7 @@ const Services = () => {
               </h4>
             </span>
             <div className="max-w-[300px]">
-              <p className="">
+              <p className="ml-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Asperiores, officia.
               </p>
