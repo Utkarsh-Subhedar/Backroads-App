@@ -5,59 +5,53 @@ import { IoLogoGithub } from "react-icons/io5";
 const Footer = () => {
   return (
     <div>
-      <footer class="flex flex-col bg-grey-dark-1 *:text-white">
-        <ul class="flex justify-center">
+      <footer className="flex flex-col bg-grey-dark-1 *:text-white md:p-[4rem] p-[3rem] gap-4 tracking-[4px] font-sans capitalize ">
+        <ul className="grid grid-cols-2 md:flex justify-items-center justify-center gap-2 2xl:text-xl md:text-sm text-xs">
           <li>
-            <a href="#home" class="footer-link">
+            <a href="#home" className="link-hover-effect md:gap-5 ">
               home
             </a>
           </li>
           <li>
-            <a href="#about" class="footer-link">
+            <a href="#about" className="link-hover-effect">
               about
             </a>
           </li>
           <li>
-            <a href="#services" class="footer-link">
+            <a href="#services" className="link-hover-effect">
               services
             </a>
           </li>
           <li>
-            <a href="#featured" class="footer-link">
+            <a href="#featured" className="link-hover-effect">
               featured
             </a>
           </li>
         </ul>
-        <ul class="flex justify-center">
+        <ul className="flex justify-center gap-5 2xl:text-4xl xl:text-3xl md:text-2xl text-xl">
           <li>
             <a
-              href="https://www.twitter.com"
+              href="https://www.linkedin.com/in/utkarsh-subhedar-0ab111211/"
               target="_blank"
-              class="footer-icon"
             >
-              <FaLinkedin />
+              <FaLinkedin className="link-hover-effect" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/Utkarsh-Subhedar" target="_blank">
+              <IoLogoGithub className="link-hover-effect" />
             </a>
           </li>
           <li>
             <a
-              href="https://www.twitter.com"
+              href="https://www.instagram.com/utkarsh_subhedar"
               target="_blank"
-              class="footer-icon"
             >
-              <IoLogoGithub />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.twitter.com"
-              target="_blank"
-              class="footer-icon"
-            >
-              <FaInstagram />
+              <FaInstagram className="link-hover-effect" />
             </a>
           </li>
         </ul>
-        <p class="flex justify-center">
+        <p className="text-center text-wrap 2xl:text-xl md:text-sm text-xs">
           copyright &copy; Backroads travel tours company
           <span id="date"></span> all rights reserved
         </p>
